@@ -1,5 +1,7 @@
 # Supplementary Code for Jung *et al.* (2025)
 
+[![DOI](https://zenodo.org/badge/1052605709.svg)](https://doi.org/10.5281/zenodo.17077444)
+
 Nanopore direct RNA sequencing analysis pipeline for poly(A) tail profiling and RNA identification.
 
 ## Requirements

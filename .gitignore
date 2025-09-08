@@ -1,0 +1,89 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebooks
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Environment
+venv/
+env/
+ENV/
+.env
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Snakemake
+.snakemake/
+.snakemake_timestamps/
+
+# Data files (typically large)
+rawdata/
+*.pod5
+*.fast5
+*.fastq
+*.fastq.gz
+*.fq
+*.fq.gz
+
+# Alignment and analysis outputs
+*.bam
+*.bai
+*.sam
+*.bed
+*.bedgraph
+*.bigwig
+*.bw
+
+# Pipeline intermediate files
+fastbasecall/
+alignments/
+subset/
+hqbasecall/
+polya/
+demux/
+
+# Output files
+*.pdf
+*.png
+*.svg
+*.html
+
+# Log files
+*.log
+logs/
+slurm-*.out
+
+# Temporary files
+*.tmp
+tmp/
+temp/
+
+# Reference indices
+*.fai
+*.amb
+*.ann
+*.bwt
+*.pac
+*.sa
+*.mmi
+
+# Models (typically large)
+models/
+
+# Exclude CSV outputs but keep example data
+*.csv
+!example_data/*.csv

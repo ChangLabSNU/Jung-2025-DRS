@@ -1,0 +1,26 @@
+# Python package requirements for Jung-2025 pipeline
+# Generated from pip list and conda list outputs
+
+# Core scientific computing
+numpy==2.2.6
+pandas==2.2.3
+scipy==1.15.3
+
+# Bioinformatics
+biopython==1.85
+pysam==0.23.3
+
+# Nanopore data handling
+pod5==0.3.28
+
+# CLI interface
+click==8.2.1
+
+# Workflow management
+snakemake==9.8.1
+
+# Visualization (used in notebooks)
+matplotlib==3.10.3
+
+# Jupyter notebooks
+ipykernel==6.29.5
